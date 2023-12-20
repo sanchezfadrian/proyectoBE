@@ -1,8 +1,8 @@
 import { Router } from "express";
-import CartManager from "../CartManager.js"
+import { CartManager } from "../classes/CartManager.js"
 
 const router = Router();
-const cartManager = new CartManager("C:/Users/Adrian/Documents/Curso Back-End/Proyecto_Final/src/carts.json");
+const cartManager = new CartManager("carts.json");
 
 router.get("/", async (req, res) => {
     try {

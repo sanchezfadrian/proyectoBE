@@ -1,8 +1,9 @@
 import fs from "fs";
+import { __dirname } from "../utils.js";
 
 class CartManager {
     constructor(filePath) {
-        this.path = filePath;
+        this.path = __dirname + "/" + filePath;
         this.carts = [];
         this.cartIdCounter = 1;
         this.loadCart();
@@ -96,4 +97,4 @@ class CartManager {
 
 }
 
-export default CartManager;
+export { CartManager };

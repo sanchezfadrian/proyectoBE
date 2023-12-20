@@ -1,23 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Hierba para mate ",
-    "description": "Para toda la familia",
-    "price": "2.99",
-    "thumbnail": "no picture",
-    "code": "bebida-02",
-    "stock": 101
-  },
-  {
-    "id": 2,
-    "title": "Cocacola 2Litros",
-    "description": "Para toda la familia",
-    "price": "2.99",
-    "thumbnail": "no picture",
-    "code": "bebida-02",
-    "stock": 101
-  },
-  {
     "id": 3,
     "title": "producto de p5",
     "description": "producto 1",
@@ -61,5 +43,23 @@
     "thumbnail": "sin imagen",
     "code": "01144444452",
     "stock": 20
+  },
+  {
+    "id": 8,
+    "title": "Algo",
+    "description": "asdasd",
+    "price": "21",
+    "thumbnail": "ssss",
+    "code": "0222",
+    "stock": "10"
+  },
+  {
+    "id": 9,
+    "title": "",
+    "description": "",
+    "price": "",
+    "thumbnail": "",
+    "code": "",
+    "stock": ""
   }
 ]

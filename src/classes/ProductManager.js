@@ -1,8 +1,9 @@
 import fs from "fs";
+import { __dirname } from "../utils.js";
 
 class ProductManager {
     constructor(filePath) {
-        this.path = filePath;
+        this.path = __dirname + "/" + filePath;
         this.products = [];
         this.productIdCounter = 1;
         this.loadProducts();
@@ -106,4 +107,4 @@ class ProductManager {
 
 }
 
-export default ProductManager;
+export { ProductManager };
